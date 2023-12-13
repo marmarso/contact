@@ -1,0 +1,316 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+/* NAV */
+
+nav{
+    padding: 5px;
+    position: relative;
+    background-color:#1c5838;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: #E8C0B8;
+    padding: 10px 50px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+nav ul li{
+    display: inline-flex;
+}
+
+nav a:hover{
+    color: #1c5838;
+    background-color: #E8C0B8;
+}
+
+
+/* HEADER */
+
+header{
+    padding: 10px;
+    margin: 30px;
+    position: relative;
+}
+
+header h1 , header h2{
+    color: #1c5838;
+    text-align: center;
+}
+
+header h1{
+    font-size: 50px;
+    
+}
+
+header h2{
+    font-size: 30px;
+}
+
+span{
+    color: #E981A4;
+    text-decoration: underline;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ INDEX ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+.home-main{
+    display: flex;
+    justify-content: center;
+}
+.home-main img{
+    max-width: 100%;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ WEB ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+.web-nav{
+    background-color: #0c3b2e;
+}
+
+.web-nav a{
+    color: #e6a902;
+}
+
+.web-nav a:hover{
+    color: #0c3b2e;
+    background-color: #e6a902;
+}
+
+.web-header h2{
+    color: #0c3b2e;
+    font-size: 40px;
+}
+
+.web-main{
+    background-color: #0c3b2e;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px 0;
+    height: 500px;
+    border-bottom: solid #e6a902;
+    border-top: solid #e6a902;
+}
+
+.web-img{
+    max-width: 400px;
+    flex-basis: 50%;
+}
+
+.web-main img{
+    padding: 5px;
+    max-width: 100%;
+    width: 400px;
+    height: auto;
+}
+
+.web-img h3{
+    color: #e6a902;
+    padding: 10px 10px;
+}
+
+.web-img p{
+    line-height: 1.5;
+    font-weight: 300;
+    color: white;
+    padding: 0 10px;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ GRAPHIC ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ RESUME ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+.resume-nav{
+    background-color: #afb796;
+}
+
+.resume-nav a{
+    color: #fbf1e4;
+}
+
+.resume-nav a:hover{
+    background-color: #1c5838;
+    color: #e7e0c4;
+}
+
+.resume-header h2{
+    font-size: 40px;
+}
+
+.resume{
+    margin: 20px 0;
+    padding: 40px 60px;
+    background-color: #afb796;
+}
+
+.resume h2{
+    color: #fbf1e4;
+    font-weight: bold;
+    padding: 10px 0;
+    border-bottom: solid black;
+}
+
+.resume h3{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.resume ul{
+    padding: 10px 0;
+}
+
+.resume ul li{
+    padding: 10px;
+    color: #32382d;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ CONTACT ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+.contact-nav{
+    background-color: #f4cd9d;
+}
+
+.contact-nav a{
+    color: #1c5838;
+}
+
+.contact-nav a:hover{
+    background-color: #1c5838;
+    color: #F294A3;
+}
+
+.contact{
+    background-position: center;
+    background-size: cover;
+    background-image: url("images/contact-thankyou/contactbg.jpg");
+    height: 600px;
+}
+
+.contact h2{
+    text-align: center;
+    color: #1c5838;
+    padding: 40px;
+    font-size: 40px;
+}
+
+.right{
+    text-align: right;
+}
+
+.right h3{
+    padding: 50px;
+    color: #1c5838;
+    line-height: 2;
+}
+
+/* form */
+
+.form{
+    width: 500px;
+}
+
+form{
+    margin: 60px;
+    position: relative;
+    top: -250px;
+}
+
+.input-field{
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    padding: 0 10px;
+    font-size: 16px;
+}
+
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+
+form .btn{
+    padding: 10px 30px;
+    margin-top: 20px;
+    background-color: #1c5838;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ THANK YOU ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+.thankyou-nav{
+    background-color: #f4cd9d;
+}
+
+.thankyou-nav a{
+    color: #1c5838;
+}
+
+.thankyou-nav a:hover{
+    color: #F294A3;
+    background-color: #1c5838;
+}
+
+.thankyou{
+    padding-top: 100px;
+    background-image: url("images/contact-thankyou/contactbg.jpg");
+    background-position-y: center;
+    height: 600px;
+}
+
+.thankyou h2{
+    color: #f4cd9d;
+    text-align: center;
+    padding: 10px;
+    line-height: 2;  
+}
+
+
+
+/* FOOTER */
+
+footer{
+    margin: 40px;
+}
+
+footer h2{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 20px;
+    color: #1c5838;
+}
